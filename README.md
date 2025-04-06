@@ -1,59 +1,50 @@
-# ContactForm
+# ContactForm Frontend
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.5.
+This is a lightweight **Angular 19** application that serves as a frontend for submitting contact form data. The form collects a user's **first name**, **last name**, and **email**, then sends a POST request to the backend API upon submission.
 
-## Development server
+The backend service handling the form data can be found here:  
+👉 [MonriContactForm-Backend](https://github.com/kanita-sehic/MonriContactForm-Backend)
 
-To start a local development server, run:
+---
 
-```bash
-ng serve
-```
+## ✨ Features
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+- Built with **Angular 19**
+- Simple and clean contact form UI
+- Form validation (required fields, email format)
+- Sends form data to the backend API on submit
+- Shows basic success/error messages
 
-## Code scaffolding
+---
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+## 🖥️ Technologies Used
 
-```bash
-ng generate component component-name
-```
+- Angular 19
+- TypeScript
+- Reactive Forms
+- HTTP Client module
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+---
 
-```bash
-ng generate --help
-```
+## 🚀 Getting Started
 
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
+### 1. Clone the Repository
 
 ```bash
-ng test
+git clone https://github.com/your-username/contact-form-frontend.git
+cd contact-form-frontend
 ```
 
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
+### 2. Install packages
 ```bash
-ng e2e
+npm install
 ```
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+### 3. Run the application
+```bash
+npm start
+```
 
-## Additional Resources
+### 4. Make sure ContactFormAPI is running
 
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+![Contact Form app](ContactFormApp.png)
